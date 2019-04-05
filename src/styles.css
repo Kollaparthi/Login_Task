@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  
+    --white1: #c2c2c2;
+    --black:#000000;
+    --labelcolor:#dddddd;
+    --inputblack:rgba(0,0,0,.5);
+    --inputwhite:rgb(40,40,40, .5);
+    /* --inputwhite:rgba(191, 234, 253, 0.5); */
+    --green: #333;
+    /* --blue: #00b9f5; */
+    --maincolor: #fff000;
+    --white: #ffffff;
+    --black: #000000;
+    --headercolor: rgb(0, 0, 0, .3);
+    --opaccolor: rgba(100, 100, 100, 0.2);
+    --blue:#3c8dbc;
+  }
+  .pane{
+    /* Location of the image */
+    background-image:url('./assets/bck6.jpg');
+    
+    height: 100%;
+  
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+  
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+  
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    }

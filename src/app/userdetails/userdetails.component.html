@@ -1,0 +1,24 @@
+
+<div class="container" style="padding:30px;">
+    <div class="card">
+        <div class="card-header bg-info text-white">User Details</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6" *ngFor="let user of user">
+              <p style="font-weight:bold;">Username:<span style="font-weight:100">{{user.Username}}</span></p>
+              <p style="font-weight:bold;">Name:<span style="font-weight:100">{{user.Name}}</span></p>
+              <p style="font-weight:bold;">Email:<span style="font-weight:100">{{user.Email}}</span></p>
+              <p style="font-weight:bold;">Password:<span style="font-weight:100">{{user.Password}}</span></p>
+              <p style="font-weight:bold;">ConfirmPassword:<span style="font-weight:100">{{user.Cnfmpassword}}</span></p>
+              <p style="font-weight:bold;">Mobile No:<span style="font-weight:100">{{user.Mobileno}}</span></p>
+              <p style="font-weight:bold;">Address:<span style="font-weight:100">{{user.Address}}</span></p>
+
+
+              
+            </div>
+          </div>
+        </div> 
+        
+      </div>
+    </div>
+    

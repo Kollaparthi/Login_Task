@@ -1,0 +1,25 @@
+.maintable{
+    margin-top:3em;
+    padding: 30px;
+    background:var(--inputwhite);
+  }
+  .btn{
+    background: var(--blue);
+    color: var(--white);
+  }
+  .border-right {
+    border-right: 3px solid var(--blue)!important;
+}
+.lgn{
+  margin-top: 120px;
+}
+
+.login{
+  background:var(--opaccolor);
+  padding:2em;
+  margin:10px;
+  margin-top:11em;
+}
+.border-left {
+  border-left: 3px solid var(--green)!important;
+}
